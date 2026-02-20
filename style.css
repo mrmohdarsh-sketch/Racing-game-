@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: #050505;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #00ffcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    border: 4px solid #00ffcc;
+    box-shadow: 0 0 25px #00ffcc;
+    border-radius: 12px;
+}
+
+.ui-panel {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+.controls {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff1801;
+}
